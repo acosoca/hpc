@@ -1,0 +1,4 @@
+sudo apt-get update
+sudo apt-get install openmpi-bin libopenmpi-dev
+mpicc helloworld.c -o helloworld
+mpirun -np 4 ./helloworld

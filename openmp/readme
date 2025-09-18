@@ -1,0 +1,1 @@
+g++ -fopenmp pi.c -o pi
